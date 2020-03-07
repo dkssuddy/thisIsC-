@@ -13,3 +13,4 @@ str1.find("hello"); //hello의 시작 위치 출력
  ㄴ find_lase_of(); 마지막으로 나타나는 위치
  ㄴ rfind(); 거꾸로 탐색
  str.begin() , str.end() // 반복자
+str1.size(); // 문자열 길이 

@@ -1,0 +1,8 @@
+#include <map>
+
+map<string, int> name; // string,int 짝의 name 맵 생성
+name.insert(make_pair(a,b)); //a,b 짝의 삽입 a가 key, b는 value
+name.erase(key) // key값에 해당하는 원소 삭제
+name.find(key) //key 값에 해당하는 위치반환
+name.count(key)//key 값에 해당하는ㅇ ㅝㄴ소들의 개수 반환
+

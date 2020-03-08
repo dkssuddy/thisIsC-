@@ -1,0 +1,7 @@
+#include <queue>
+
+queue<int> name; // name 의 큐 선언
+name.push(값); //큐의 back 에 값을 넣는다
+name.pop(); //큐 front를 삭제한다.
+
+front,back,size,empty; // 알지?

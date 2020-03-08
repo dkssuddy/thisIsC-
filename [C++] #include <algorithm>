@@ -1,0 +1,4 @@
+#include <algorithm>
+
+max(a,b);
+min(a,b);

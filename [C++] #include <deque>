@@ -1,0 +1,17 @@
+#include <deque>
+
+end,begin 젤뒤, 젤앞
+rend, rbegin 젤앞, 젤뒤
+empty, size, clear=덱비우기
+resize(num) 덱에 저장 가능한 데이터 개수 num개로 변경
+max_size() 재할당을 최대로 하여 저장할 수 있는 허용하는 한 최대의 크기
+assign(n, elem) : elem 원소를 n개 복사
+assign(beg, end) : beg와 end-1 사이의 원소 복사
+swap(deque2) : 덱2와 원소 모두 교환
+push_back,front ,, pop_back,front
+insert(pos, elem) : pos 위치에 elem 삽입
+insert(pos,n,elem) : pos 위치에 elem을 n개 삽입
+insert(pos, beg, end ) : pose 위치에 beg부터 end-1 위치의 데이터 삽입
+erase(pos) : pos 위치 데이터 제거하고 다음 원소 위치 리턴
+erase(beg, end): beg 부터 end-1 원소 제거 후 end 위치 원소 리턴
+그냥 pop() : 덱이 비어잇지않다면 가장 최근 삽입한 데이터 삭제

@@ -14,5 +14,6 @@ str1.find("hello"); //hello의 시작 위치 출력
  ㄴ rfind(); 거꾸로 탐색
  str.begin() , str.end() // 반복자
 str1.size(); // 문자열 길이 
+getline(cin,이름); // 알지?
 
 cin.ignore() // getline 할때 개행 없애줌..

@@ -11,3 +11,23 @@ vector <자료형> 이름 벡터를 선언
 이름.size() 원소의 개수 반환
 이름.find(x,y,p) x에서 y까지 p값을 찾음. 찾으면 위치반환, 못찾으면 end()반환 (iterator)
 이름.empty() 벡터가 비어있거나 size가 0이면 true, 아니면 false 반환
+
+
+먼저 벡터는 어떤 자료형도 저장 가능하며, #include <vector>를 해줘야 사용 가능하다.
+
+vector<int> v; v.push_back(1);
+
+이런식으로 사용이 가능한데, vector에는 pair<>도 들어갈 수 있다.
+
+vector<pair<int,string> > v; v.push_back(pair<int,string>(1,"안녕"));
+
+여기서 주의할 것은, vector<pair<int,string>> v; 라고 하면 에러가 난다는 것!
+
+꼭 >와 > 사이에 띄어쓰기를 작성해줘야 한다.
+
+그러면 다음과 같이 접근할 수 있다.
+
+cout << v[0].first << "\n"; // int cout << v[0].second << "\n" ; // string
+
+덧붙이자면 vector< pair<pair<int,string>,int> > v2; 이런 식으로도 사용 가능하며, 이럴 경우 v[0].first.first나 v[0].first.second 혹은 v[0].second로 접근할 수 있다. (차례대로 (pair<pair<int,string>,int>), (pair<pair<int,string>,int>), (pair<pair<int,string>,int>)을 의미한다.)
+[출처] [백준/10814] 나이 순 정렬_시간줄이기,벡터,sort()와 stable_sort()|작성자 헤일리

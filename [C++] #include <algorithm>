@@ -2,3 +2,4 @@
 
 max(a,b);
 min(a,b);
+sort(a,b);

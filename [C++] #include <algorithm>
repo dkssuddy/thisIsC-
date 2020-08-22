@@ -3,3 +3,6 @@
 max(a,b);
 min(a,b);
 sort(a,b);
+
+ex) int a[21];
+fill(arr,arr+21,0); // 0으로 arr 
